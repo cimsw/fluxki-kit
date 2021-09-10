@@ -1,5 +1,4 @@
 require('dotenv').config();
-
 const express = require('express');
 const bodyParser = require('body-parser');
 
@@ -99,7 +98,7 @@ app.post('/enviar-mensagem-anexo', async (request, response) => {
         chamadoId = chamado.id;
     }
 
-    const arquivo = await enviarArquivo('./arquivos/exemplo-anexo.pdf');
+    const arquivo = await enviarArquivo('./arquivos/enviar-arquivo.txt');
     const respostaCriada = await responderChamadoComoCliente(chamadoId, usuario.id, descricao, [arquivo.id]);
     response.json({respostaCriada, arquivo});
 
