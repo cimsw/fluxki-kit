@@ -8,11 +8,13 @@ Este é um pequeno exemplo de como se comunicar com o fluxki utilizando a API e 
 
 Instale as dependências com o `npm install`
 
-## Configurando 
+### Configurações 
 
 Crie uma cópia do arquivo `.env.example` para o arquivo `.env`
 
-Neste arquivo você vai precisar configurar a URL da API do fluxki, normalmente a URL da API é a mesma do seu fluxki seguida de `/api/`
+Neste arquivo você vai precisar configurar a URL da API do fluxki e o token. Normalmente a URL da API é a mesma do seu fluxki seguida de `/api/`
+
+No exemplo abaixo o endereço https://demonstracao.fluxki.com.br
 
 ```
 FLUXKI_API_URL=https://demonstracao.fluxki.com.br/api/
@@ -27,7 +29,7 @@ Certifique-se de liberar as permissões apenas para os módulos necessários. Pa
 * Editar usuários
 * Gravar chamados
 * Gravar respostas dos chamados
-* Gravar arquivos
+* Gravar e Visualizar arquivos
 
 Após criar o token configure o arquivo .env conforme o exemplo abaixo:
 
