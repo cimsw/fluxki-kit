@@ -1,6 +1,8 @@
 # API para integração com o Fluxki
 
-Este é um pequeno exemplo de como se comunicar com o fluxki utilizando a API e os gatilhos.
+Este é um pequeno exemplo de como se comunicar com o [fluxki](https://www.fluxki.com.br) utilizando a API e os gatilhos.
+
+Com este exemplo você poderá criar chatbots ou se conectar com outros aplicativos de chat que não estão disponíveis de forma nativa dentro do Fluxki.
 
 ## Instalação
 
