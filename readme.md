@@ -6,6 +6,8 @@ Com este exemplo você poderá criar chatbots ou se conectar com outros aplicati
 
 ## Instalação
 
+Este projeto foi desenvolvido com node.js na **versão v16.6.0**
+
 ### Instalar as dependências
 
 Instale as dependências com o `npm install`
